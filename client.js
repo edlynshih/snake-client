@@ -5,6 +5,9 @@ const connect = function () {
     host: "localhost",
     port: 50541,
   });
+  
+  // interpret incoming data as text
+  conn.setEncoding("utf8");
 
   conn.on("connect", () => {
     console.log("Successfully connected to game server")
@@ -12,14 +15,14 @@ const connect = function () {
 
   conn.on("connect", () => {
     conn.write("Name: PCS")
+    //conn.write("Move: up")
   })
+
 
   conn.on("data", () => {
     console.log("you ded cuz you idled")
   });
 
-  // interpret incoming data as text
-  conn.setEncoding("utf8");
 
   return conn;
 };
