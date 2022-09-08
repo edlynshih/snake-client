@@ -1,7 +1,6 @@
 let connection;
 
 // setup interface to handle user input from stdin
-//const { stdin } = require("process");
 
 const setupInput = function (conn) {
   connection = conn;
@@ -14,7 +13,6 @@ const setupInput = function (conn) {
 };
 
 const handleUserInput = function (key) {
-  //stdin.on("data", (key) => {
     if (key === '\u0003') {
       process.exit();
     } 
@@ -30,7 +28,9 @@ const handleUserInput = function (key) {
     if (key === "d") {
       connection.write("Move: right");
     }
-  //})
+    if (key === "e") {
+      console.log("Says: ily")
+    }
 };
 
 module.exports = { setupInput };

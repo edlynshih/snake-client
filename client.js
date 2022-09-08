@@ -19,7 +19,6 @@ const connect = () => {
     console.log("you ded cuz you idled")
   });
 
-  conn.write
   return conn;
 };
 
