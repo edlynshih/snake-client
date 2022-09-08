@@ -29,7 +29,7 @@ const handleUserInput = function (key) {
       connection.write("Move: right");
     }
     if (key === "e") {
-      console.log("Says: ily")
+      connection.write("Say: How r u?")
     }
 };
 
