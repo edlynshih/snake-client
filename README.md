@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Snake Game Image](image1.png)
-![Snake Game Image2](../snake%20image/image2.png)
+![Snake Game Image](./snake%20image/image1.png)
+![Snake Game Image2](./snake%20image/image2.png)
 
 
 ## Getting Started
