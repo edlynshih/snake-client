@@ -1,4 +1,5 @@
 const { MOVEMENTS, SAYINGS } = require("./constants");
+
 let connection;
 
 // setup interface to handle user input from stdin
@@ -19,11 +20,11 @@ const handleUserInput = function (key) {
     } 
     
     if (MOVEMENTS[key]) {
-      connection.write(MOVEMENTS[key])
+      connection.write(MOVEMENTS[key]);
     }
 
     if (SAYINGS[key]) {
-      connection.write("Say: " + SAYINGS[key])
+      connection.write("Say: " + SAYINGS[key]);
     }
 };
 

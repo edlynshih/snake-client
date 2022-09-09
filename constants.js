@@ -9,9 +9,10 @@ const MOVEMENTS = {
 };
 
 const SAYINGS = {
-  e: "How r u?",
-  r: "I'm good",
-  t: "Ur gr8!"
+  1: "How r u?",
+  2: "I'm good",
+  3: "Ur gr8!",
+  4: "Yum!"
 }
 
 module.exports = {
