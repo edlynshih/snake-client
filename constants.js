@@ -13,7 +13,7 @@ const SAYINGS = {
   2: "I'm good",
   3: "Ur gr8!",
   4: "Yum!"
-}
+};
 
 module.exports = {
   IP,

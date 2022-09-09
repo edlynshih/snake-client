@@ -3,7 +3,6 @@ const { MOVEMENTS, SAYINGS } = require("./constants");
 let connection;
 
 // setup interface to handle user input from stdin
-
 const setupInput = function (conn) {
   connection = conn;
   const stdin = process.stdin;
