@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](../snake%20image/image1.png)
+![Snake Game Image](image1.png)
 !["screenshot description"](#)
 
 
@@ -18,5 +18,5 @@ Before you can run this client, you will need to be running the server side whic
 - Run the development snake client using the `node play.js` command.
 - Use the `W`, `A`, `S`, `D` keys to maneuver your snake up, down, left, or right to eat food and grow the snake. 
 - Use the numbered keys `1`, `2`, `3`, `4` to send canned messages to other players. 
-- Avoid bumping into the walls or yourself
+- Avoid bumping into the walls or yourself.
 - Press the `CTRL` + `C` keys to quit the game. 
